@@ -77,6 +77,13 @@ nav li a{
 	position: relative;
 }
 
+.board{
+	background: url('../img/painel-aramado.jpg');
+	height: 450px;
+	margin-bottom: 20px;
+	position: relative;
+}
+
 .caixa{
 	position: absolute;
 	top: 315px;
@@ -140,3 +147,14 @@ footer{
 	font-size: 10px;
 	margin-bottom: 0;
 }
+
+
+
+
+
+
+
+
+
+
+
