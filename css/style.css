@@ -1,19 +1,20 @@
 /*Esse é o CSS de um site */
 body{
-	font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+	font-family: 'Nunito', sans-serif;
 	line-height: 1.5;
 	color: #444;
 	font-size: 100%;
 }
 
 a{
-	color: #00ccff;
+	color: #77c4d4;
 	font-size: 16px;
 	text-decoration: none;
 }
 
 a:hover{
-	text-decoration: underline;
+	/*text-decoration: underline;*/
+	color: #9c71c7;
 
 }
 
@@ -58,30 +59,25 @@ nav li{
 }
 
 nav li a{
-	color: #999;
+	color: #6cd5eb;
 
 }
 
 .banner{
-	background: url('../img/banner.jpg');
+	background: url('../img/planner7.jpg');
 	height: 450px;
 	margin-bottom: 20px;
 	position: relative;
 }
 
-.planner{
-	background: url('../img/planner6.jpg');
-	height: 450px;
-	margin-bottom: 20px;
-	position: relative;
-}
 
 .caixa{
 	position: absolute;
-	top: 230px;
-	background: rgba(0,0,0,0.6);
+	top: 315px;
+	background-image: linear-gradient(to right, #9c71c7,  #77c4d4);
+	/*background: rgba(138,146,236,0.5);*/
 	width: 480px;
-	padding:24px 10px 24px 40px; /*top right bottom left */
+	padding: 10px 0px 4px 24px; /*top right bottom left */
 	display: center;
 }
 
