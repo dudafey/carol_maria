@@ -77,6 +77,13 @@ nav li a{
 	position: relative;
 }
 
+.caneta{
+	background: url('../img/caneta.jpg');
+	height: 450px;
+	margin-bottom: 20px;
+	position: relative;
+}
+
 .board{
 	background: url('../img/painel-aramado.jpg');
 	height: 450px;
