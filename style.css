@@ -1,0 +1,160 @@
+body{
+	font-family: 'Nunito', sans-serif;
+	line-height: 1.5;
+	color: #444;
+	font-size: 100%;
+}
+
+a{
+	color: #77c4d4;
+	font-size: 16px;
+	text-decoration: none;
+}
+
+a:hover{
+	/*text-decoration: underline;*/
+	color: #9c71c7;
+
+}
+
+.container{
+	max-width: 1128px;
+	margin: 0 auto;
+}
+
+img,
+figure,
+video,
+embed{
+	max-width: 100%;
+
+}
+
+header{
+	width: 100%;
+	height: 48px;
+	margin-top: 20px;
+	margin-bottom: 36px;
+}
+
+.marca{
+	float: left;
+	width: 234px;
+}
+
+nav{
+	float: right;
+	width: 840px;
+}
+
+nav ul{
+	float: right;
+}
+
+nav li{
+	font-size: 12px;
+	display: inline-block;
+	margin-left: 20px;
+	margin-top: 10px; 
+}
+
+nav li a{
+	color: #6cd5eb;
+
+}
+
+.banner{
+	background: url('../img/banner.jpg');
+	height: 450px;
+	margin-bottom: 20px;
+	position: relative;
+}
+
+.planner{
+	background: url('../img/planner6.jpg');
+	height: 450px;
+	margin-bottom: 20px;
+	position: relative;
+}
+
+.board{
+	background: url('../img/painel-aramado.jpg');
+	height: 450px;
+	margin-bottom: 20px;
+	position: relative;
+}
+
+.caixa{
+	position: absolute;
+	top: 315px;
+	background-image: linear-gradient(to right, #9c71c7,  #77c4d4);
+	/*background: rgba(138,146,236,0.5);*/
+	width: 480px;
+	padding: 10px 0px 4px 24px; /*top right bottom left */
+	display: center;
+}
+
+h1{
+	font-size: 40px;
+	color: #FFF;
+	font-weight: 600;
+	margin-top: 0;
+	margin-bottom: -20px;
+	font-family: 'Nunito', sans-serif;
+}
+
+.destaque{
+	font-size: 18px;
+	color: #fff;
+	font-weight: 200;
+	font-family: 'Nunito', sans-serif;
+}
+
+.coluna{
+	width: 362px;
+	float: left;
+	margin-right: 20px;
+
+}
+
+.coluna:last-child{
+	margin-right: 0;
+}
+
+.conteudo{
+	
+	float: left;
+	margin-right: 20px;
+
+}
+
+h2{
+	font-size: 32px;
+}
+
+hr {
+	border: 0;
+	border-top: 1px solid #d9dbdb;
+}
+
+footer{
+	width: 100%;
+	margin-top: 24px;
+	margin-bottom: 24px;
+}
+
+.footer{
+	font-size: 10px;
+	margin-bottom: 0;
+}
+
+
+
+
+
+
+
+
+
+
+
